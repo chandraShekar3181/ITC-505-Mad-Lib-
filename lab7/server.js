@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const quantityInput = document.getElementById("quantity"); // Added quantity input
   
     let previousStory = '';
+    
   
     generateBtn.addEventListener("click", generateStory);
     clearBtn.addEventListener("click", clearStory);
